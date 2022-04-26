@@ -1,8 +1,8 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
+title: Personal Stack
+description: My Personal Stack
+author: Jacky Fan
+github: https://github.com/fanq10
+about: I'm a Cloud Engineer at Amazon Web Services
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 
@@ -20,14 +20,14 @@ social:
     - icon: fa-twitter
       link: "#"
     - icon: fa-linkedin
-      link: "#"
+      link: "https://www.linkedin.com/in/fanq10"
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/fanq10"
 
 share:
-  twitter_username: github.io
+  twitter_username: fanq10
   fb_appid: 1749788565247320
 
 urls:
@@ -38,7 +38,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://fanq10.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
