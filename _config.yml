@@ -4,7 +4,7 @@ author: Jacky Fan
 github: https://github.com/fanq10
 about: A reliable Cloud Engineer working at Amazon Web Services
 disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+google_analytics: UA-313403853-Y
 
 enableTags: true
 tagarray: []
@@ -15,20 +15,20 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
+#    - icon: fa-facebook
+#      link: "#"
     - icon: fa-twitter
-      link: "#"
+      link: "fanq10"
     - icon: fa-linkedin
       link: "https://www.linkedin.com/in/fanq10"
-    - icon: fa-stack-exchange
-      link: "#"
+#    - icon: fa-stack-exchange
+#      link: "#"
     - icon: fa-github
       link: "https://github.com/fanq10"
 
 share:
   twitter_username: fanq10
-  fb_appid: 1749788565247320
+#  fb_appid: 1749788565247320
 
 urls:
     - text: About Me
