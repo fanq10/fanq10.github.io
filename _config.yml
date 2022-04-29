@@ -1,5 +1,5 @@
-title: Personal Stack
-description: My Personal Stack
+title: Personal Blog
+description: My Personal Blog
 author: Jacky Fan
 github: https://github.com/fanq10
 about: A reliable Cloud Engineer working at Amazon Web Services
@@ -33,10 +33,10 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    # - text: My Projects
+    #   url: /projects/
+    # - text: XML Feed
+    #   url: /feed.xml
 
 url: "https://fanq10.github.io"
 baseurl: ""
