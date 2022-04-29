@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm a Cloud Engineer at Amazon Web Services.
+I'm a Cloud Engineer working at Amazon Web Services.
 
-email: info@rjftrust.com
+email: jacky.fan@rjftrust.com
