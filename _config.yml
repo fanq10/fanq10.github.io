@@ -1,10 +1,9 @@
-title: Jacky Fan
+title: Jacky Fan Personal Blog
 description: My Personal Blog
 author: Jacky Fan
 github: https://github.com/fanq10
 about: A reliable Cloud Engineer working at Amazon Web Services
-disqus_shortname: stackproblems
-google_analytics: UA-313403853-Y
+google_analytics: 
 
 enableTags: true
 tagarray: []
@@ -32,7 +31,7 @@ share:
 
 urls:
     - text: About Me
-      url: /about/
+      url: /about
     # - text: My Projects
     #   url: /projects/
     # - text: XML Feed
@@ -44,13 +43,15 @@ paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 gems:
   - jekyll-paginate
   - jekyll-gist
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
+#compress_html:
+#  clippings: all
+#  comments: ["<!-- ", " -->"]
+#  endings: all
+#  ignore:
+#    envs: ['development']
