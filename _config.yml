@@ -3,6 +3,9 @@ description: My Personal Blog
 author: Jacky Fan
 github: https://github.com/fanq10
 about: A reliable Cloud Engineer working at Amazon Web Services
+location:
+  - icon: fa-map-marker
+    Text: "Auckland"
 google_analytics: 
 
 enableTags: true
