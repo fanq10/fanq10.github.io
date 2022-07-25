@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Install Docker && Docker Compose"
+title:  "Install Docker and Docker Compose"
 date:   2022-07-29 09:32:15 +0700
 categories: [docker, docker-compose]
 ---
