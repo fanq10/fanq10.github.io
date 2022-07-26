@@ -10,7 +10,7 @@ categories: [ linux ]
 for i in {01..35}; do touch file${i}.txt; done
 ```
 
-### Rename files name for multiple files, which it has to be done in the directory itself 批量改名
+### Rename multiple files 批量改名
 ```
 # For example, we have a number of files extension called '.20220114'
 # and we want to remove/renmae the file extension.
