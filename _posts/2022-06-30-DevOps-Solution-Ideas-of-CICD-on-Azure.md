@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DevOps: Solution ideas of CI/CD on Azure"
-date:   2022-06-30 21:32:15 +0700
+date:   2022-06-30 21:32:00 +1200
 categories: [azure, devops]
 ---
 
