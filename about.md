@@ -21,4 +21,4 @@ A reliable Cloud Engineer at Amazon Web Services.
 
 ***
 **Contacts:**  
-Email: jacky.fan@rjftrust.com
+Email: jacky@fan.nz
