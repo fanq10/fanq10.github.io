@@ -20,3 +20,12 @@ for i in *.20220114; do echo mv $i `echo $i | sed 's/.20220114$//'`; done
 # real run
 for i in *.20220114; do mv $i `echo $i | sed 's/.20220114$//'`; done
 ```
+
+### extend/add disk without reboot
+```
+echo "- - -" | tee /sys/class/scsi_host/host*/scan
+    or 
+for host in /sys/class/scsi_host/*; do echo "- - -" | sudo tee $host/scan; ls /dev/sd* ; done
+    or
+for HOST in /sys/class/scsi_host/host*/scan; do echo "- - -" >  ${HOST}; done
+```
