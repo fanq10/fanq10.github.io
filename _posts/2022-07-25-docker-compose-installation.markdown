@@ -36,15 +36,15 @@ docker --version
 {% endhighlight %}
 
 ## Manage Docker as a non-root user
-```
+{% highlight ruby %} 
 sudo usermod -aG docker $USER
 
 # On Linux, you can also run the following command to activate the changes to groups:
 newgrp docker
-```
+{% endhighlight %}
 
 ## Install docker-compose  
-```
+{% highlight ruby %} 
 sudo apt-get update
 sudo apt-get install docker-compose-plugin
 
@@ -53,4 +53,4 @@ sudo ln -s /usr/libexec/docker/cli-plugins/docker-compose /usr/local/bin/docker-
 
 # Check version
 docker-compose --version
-```
+{% endhighlight %}
