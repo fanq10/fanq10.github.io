@@ -6,12 +6,12 @@ categories: [ linux ]
 ---
 
 ### Create multiple files:
-```
+```bash
 for i in {01..35}; do touch file${i}.txt; done
 ```
 
 ### Rename multiple files 批量改名
-```
+```bash
 # For example, we have a number of files extension called '.20220114'
 # and we want to remove/renmae the file extension.
 # Dry run:
@@ -20,9 +20,13 @@ for i in *.20220114; do echo mv $i `echo $i | sed 's/.20220114$//'`; done
 # real run
 for i in *.20220114; do mv $i `echo $i | sed 's/.20220114$//'`; done
 ```
+### Fix the offending ssh key in line 6, replace the ln number with the actual error line number
+```bash
+sed -i '6d' ~/.ssh/known_hosts
+```
 
 ### extend/add disk without reboot
-```
+```bash
 echo "- - -" | tee /sys/class/scsi_host/host*/scan
     or 
 for host in /sys/class/scsi_host/*; do echo "- - -" | sudo tee $host/scan; ls /dev/sd* ; done
