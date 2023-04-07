@@ -10,6 +10,11 @@ categories: [ linux ]
 for i in {01..35}; do touch file${i}.txt; done
 ```
 
+### Find largest file in directory:
+```bash
+du -a / | sort -n -r | head -n 20
+```
+
 ### Rename multiple files 批量改名
 ```bash
 # For example, we have a number of files extension called '.20220114'
