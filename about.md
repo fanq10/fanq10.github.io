@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-A reliable Cloud Engineer at Amazon Web Services | CloudFormation SME.  
+A reliable Cloud Engineer at Amazon Web Services  
 
 *** 
 ## Professional Certifications  
