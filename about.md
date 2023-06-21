@@ -8,6 +8,7 @@ A reliable Cloud Engineer at Amazon Web Services
 *** 
 ## Professional Certifications  
 ### Amazon Web Services:  
+![image](https://github.com/fanq10/fanq10.github.io/assets/29943707/a806d1f0-2a27-4d91-95fc-9e8bf3503945)  
 ![image](https://images.credly.com/size/120x120/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png)  
 ### Microsoft:  
 ![image](https://images.credly.com/size/125x125/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png)
