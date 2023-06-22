@@ -6,9 +6,9 @@ permalink: /about/
 A reliable Cloud Engineer at Amazon Web Services  
 
 ## Accreditations:
-#### :medal_sports: AWS CloudFormation Subject Matter Experts (SME)
-  + Top 65s globally :earth_americas:
-  + The 1st SME in Aotearoa :new_zealand:
+#### AWS CloudFormation Subject Matter Experts (SME)
+  + Top 65s globally
+  + The 1st SME in Aotearoa
 
 ![output-onlinepngtools](https://github.com/fanq10/fanq10.github.io/assets/29943707/79d2befa-c2a2-4aa1-80b1-aaf2f7af67ff)
 
