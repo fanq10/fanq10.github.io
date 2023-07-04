@@ -10,7 +10,7 @@ A reliable Cloud Engineer at Amazon Web Services
   + Top 65s globally
   + The 1st SME in Aotearoa
 
-![output-onlinepngtools](https://github.com/fanq10/fanq10.github.io/assets/29943707/79d2befa-c2a2-4aa1-80b1-aaf2f7af67ff)
+![image](https://images.credly.com/size/125x125/images/1c465543-7926-48ef-8dd8-d88ca0a9debb/image.png)
 
 *** 
 ## Professional Certifications  
