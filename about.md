@@ -7,8 +7,8 @@ A reliable Cloud Engineer at Amazon Web Services
 
 ## Accreditations:
 #### AWS CloudFormation Subject Matter Expert (SME)
-  + Top 65s globally
   + The 1st SME in Aotearoa
+  + Top 65s globally
 
 ![image](https://images.credly.com/size/125x125/images/1c465543-7926-48ef-8dd8-d88ca0a9debb/image.png)
 
