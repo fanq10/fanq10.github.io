@@ -6,7 +6,7 @@ permalink: /about/
 A reliable Cloud Engineer at Amazon Web Services  
 
 ## Accreditations:
-#### AWS CloudFormation Subject Matter Experts (SME)
+#### AWS CloudFormation Subject Matter Expert (SME)
   + Top 65s globally
   + The 1st SME in Aotearoa
 
