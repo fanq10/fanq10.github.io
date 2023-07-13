@@ -10,6 +10,17 @@ categories: [ linux ]
 for i in {01..35}; do touch file${i}.txt; done
 ```
 
+### ps commands:
+
+- Sort by CPU:
+```
+ps aux | sort -n -k 3 | head -n 10
+```
+- Sort by Memory:
+```
+ps aux --sort -rss | head -n 10
+```
+
 ### Find largest file in directory:
 ```bash
 du -a / | sort -n -r | head -n 20
