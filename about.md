@@ -15,8 +15,8 @@ A reliable Cloud Engineer at Amazon Web Services
 *** 
 ## Professional Certifications  
 ### Amazon Web Services:  
-  ![image](https://images.credly.com/size/120x120/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png)
-  ![image](https://images.credly.com/size/120x120/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png)  
+  ![image](https://images.credly.com/size/125x125/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png)
+  ![image](https://images.credly.com/size/125x125/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png)  
 ### Microsoft:  
 ![image](https://images.credly.com/size/125x125/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png)
 ![image](https://images.credly.com/size/125x125/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/CERT-Expert-DevOps-Engineer-600x600.png)
