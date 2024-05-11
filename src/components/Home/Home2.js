@@ -22,9 +22,9 @@ function Home2() {
             I'm a cloud engineer for Amazon.
               something, I studied CompSci at Auckland University of Technology. I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I have expertise in
               <i>
-                <b className="purple"> IaC, kubernetes, container, DevOps, CI/CD Pipelines... </b>
+                <b className="purple"> Infrastructure as Code, Kubernetes, Docker, DevOps, CI/CD Pipelines, Control Tower/Landing Zone, Automation... </b>
               </i>
               <br />
               <br />
