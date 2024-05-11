@@ -9,14 +9,18 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Jacky Fan </span>
-            from <span className="purple"> Auckland, New Zealand.</span>
+            from <span className="purple"> Auckland, Aotearoa.</span>
+            <br />
+            I studied CompSci at Auckland University of Technology and
             <br />
             I am currently employed as a Cloud Engineer at <span className="purple"> Amazon Web Services.</span>
             <br />
-            I studied CompSci at Auckland University of Technology
+            🏅 AWS CloudFormation SME - <span className="purple"> 1st SME in Aotearoa</span>
+            <br />
+            🏅 AWS CodeSuite SME  - <span className="purple"> 1st achieved 2*SMEs in Aotearoa</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from work, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
