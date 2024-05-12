@@ -21,14 +21,25 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="AWS CDK cross stacks reference workshop"
+              description="Demonstrate how to do a CDK cross stack reference by two methods: CloudFormation native & ssm store"
+              ghLink="https://github.com/aws-6w8hnx/cdk-workshop-cross-stack-reference"
+              demoLink="https://repost.aws/knowledge-center/cdk-cross-stack-reference"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="AWS CodeDeploy EC2/ASG workshops"
+              description="Demonstrate how CodeDeploy works for EC2 and ASG, deployment via AWS CloudFormation"
+              ghLink="https://github.com/aws-6w8hnx/code-workshop-ec2-codedeploy"
+              demoLink="https://github.com/aws-6w8hnx/code-workshop-ec2-codedeploy/blob/2b45857860d5ae8d8b56876e5267f524cdbb13ed/README.md"
             />
           </Col>
 
@@ -36,35 +47,24 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="AWS CodeDeploy ECS/Lambda workshops"
+              description="Demonstrate how CodeDeploy works for ECS Blue Green deployment & Rolling update, and Lambda deployment, deployment via AWS Cloud Development Kit(CDK) and AWS Serverless Application Model(SAM)"
+              ghLink="https://github.com/aws-6w8hnx/code-workshop-ecs-lambda-codedeploy"
+              demoLink="https://github.com/aws-6w8hnx/code-workshop-ecs-lambda-codedeploy/blob/c041a7911b9af50c2e390ea366e0cfdb4c3b3ccd/ECS/README.md"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={suicide}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="AWS Control Tower AFT workshop"
+              description="Demonstrate how terraform and AWS Control Tower AFT works, and also have a Control Tower AFT troubleshooting."
+              ghLink="https://github.com/aws-6w8hnx/controltower-workshop-aft"
+              demoLink="https://github.com/aws-6w8hnx/controltower-workshop-aft/blob/a2fa07d5044c7df7a95479aaad488f2000798591/README.md"              
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
