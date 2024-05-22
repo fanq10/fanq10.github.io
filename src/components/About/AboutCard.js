@@ -15,9 +15,9 @@ function AboutCard() {
             <br />
             I am currently employed as a Cloud Engineer at <span className="orange">Amazon Web Services</span>.
             <br />
-            🏅 AWS CloudFormation SME - <span className="purple"> 1st SME in Aotearoa</span>
+            🏅 <span className="orange">AWS CloudFormation SME</span> - the <span className="purple">1st SME</span> in Aotearoa
             <br />
-            🏅 AWS CodeSuite SME  - <span className="purple"> 1st achieved 2*SMEs in Aotearoa</span>
+            🏅 <span className="orange">AWS CodeSuite SME</span> - the <span className="purple"> 1st who achieved two SMEs</span> in Aotearoa
             <br />
             <br />
             Apart from work, some other activities that I love to do!
