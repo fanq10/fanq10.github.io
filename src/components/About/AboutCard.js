@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I studied CompSci at Auckland University of Technology and
             <br />
-            I am currently employed as a Cloud Engineer at <span className="purple"> Amazon Web Services.</span>
+            I am currently employed as a Cloud Engineer at <span className="orange">Amazon Web Services</span>.
             <br />
             🏅 AWS CloudFormation SME - <span className="purple"> 1st SME in Aotearoa</span>
             <br />

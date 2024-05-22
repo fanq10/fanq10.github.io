@@ -19,12 +19,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I'm a cloud engineer for Amazon.
-              something, I studied CompSci at Auckland University of Technology. I think… 🤷‍♂️
+            I'm a cloud engineer for <b className="orange">Amazon Web Services</b> (a subsidiary of <b className="orange">Amazon</b> that provides cloud computing platforms).
+              I studied CompSci at Auckland University of Technology. I think… 🤷‍♂️
               <br />
               <br />I have expertise in
               <i>
-                <b className="purple"> Infrastructure as Code, Kubernetes, Docker, DevOps, CI/CD Pipelines, Control Tower/Landing Zone, Automation... </b>
+                <b className="purple"> Cloud computing (AWS, Azure, and GCP), Infrastructure as Code, Kubernetes, Docker, DevOps, CI/CD Pipelines, Control Tower/Landing Zone, Automation... </b>
               </i>
               <br />
               <br />
