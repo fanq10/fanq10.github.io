@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://rjf-trust.github.io/"
+                href="https://rjf-trust.github.io/portfolio"
                 target="_blank"
                 rel="noreferrer"
               >
