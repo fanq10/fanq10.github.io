@@ -17,7 +17,9 @@ function AboutCard() {
             <br />
             🏅 <span className="orange">AWS CloudFormation SME</span> - the <span className="purple">1st SME</span> in Aotearoa
             <br />
-            🏅 <span className="orange">AWS CodeSuite SME</span> - the <span className="purple"> 1st who achieved two SMEs</span> in Aotearoa
+            🏅 <span className="orange">AWS CodeSuite SME</span> - the <span className="purple"> 1st who achieved 2 * SMEs</span> in Aotearoa
+            <br />
+            🏅 <span className="orange">AWS Control Tower SME</span> - the <span className="purple">1st who achieved 3 * SMEs</span> in Aotearoa
             <br />
             <br />
             Apart from work, some other activities that I love to do!
