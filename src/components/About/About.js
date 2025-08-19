@@ -1,54 +1,60 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+import React from 'react';
+import Style from './About.module.scss';
+import Terminal from "./Terminal";
+import {Box} from "@mui/material";
+import {info} from "../../info/Info";
 
-function About() {
-  return (
-    <Container fluid className="about-section">
-      <Particle />
-      <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
-            md={7}
-            style={{
-              justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
-            }}
-          >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
-            </h1>
-            <Aboutcard />
-          </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
-        </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
 
-        <Techstack />
+export default function About({innerRef}) {
+    const firstName = info.firstName.toLowerCase()
 
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
+    function aboutMeText() {
+        return <>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
+                about{firstName} </p>
+            <p><span style={{color: info.baseColor}}>about{firstName} <span
+                className={Style.green}>(main)</span> $ </span>
+                {info.bio}
+            </p>
+        </>;
+    }
 
-        <Github />
-      </Container>
-    </Container>
-  );
+    function skillsText() {
+        return <>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd skills/tools
+            </p>
+            <p><span style={{color: info.baseColor}}>skills/tools <span
+                className={Style.green}>(main)</span> $</span> ls</p>
+            <p style={{color: info.baseColor}}> Proficient With</p>
+            <ul className={Style.skills}>
+                {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
+            </ul>
+            <p style={{color: info.baseColor}}> Exposed To</p>
+            <ul className={Style.skills}>
+                {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
+            </ul>
+        </>;
+    }
+
+    function miscText() {
+        return <>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
+                hobbies/interests</p>
+            <p><span style={{color: info.baseColor}}>hobbies/interests <span
+                className={Style.green}>(main)</span> $</span> ls</p>
+            <ul>
+                {info.hobbies.map((hobby, index) => (
+                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
+                ))}
+            </ul>
+        </>;
+    }
+
+    return (
+        <Box ref={innerRef} display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'} id={'about'}>
+            <Terminal text={aboutMeText()}/>
+            <Terminal text={skillsText()}/>
+            <Terminal text={miscText()}/>
+        </Box>
+    )
 }
-
-export default About;

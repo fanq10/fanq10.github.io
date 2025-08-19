@@ -1,49 +1,35 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
-import Home2 from "./Home2";
-import Type from "./Type";
+import React from 'react';
+import Style from './Home.module.scss';
+import me from '../../img/self.png';
+import classNames from 'classnames';
+import EmojiBullet from "./EmojiBullet";
+import SocialIcon from "./SocialIcon";
+import {Box} from "@mui/material";
+import {info} from "../../info/Info";
 
-function Home() {
-  return (
-    <section>
-      <Container fluid className="home-section" id="home">
-        <Particle />
-        <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
+export default function Home({innerRef}) {
 
-              <h1 className="heading-name">
-                I'm
-                <strong className="main-name"> Jacky Fan</strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
-            </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col>
-          </Row>
-        </Container>
-      </Container>
-      <Home2 />
-    </section>
-  );
+   return (
+      <Box ref={innerRef} component={'main'} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} alignItems={'center'}
+           justifyContent={'center'} minHeight={'calc(100vh - 175px)'} id={'home'}>
+         <Box className={classNames(Style.avatar, Style.shadowed)} alt={'image of developer'} style={{background: info.gradient}} component={'img'} src={me} width={{xs: '35vh', md: '40vh'}}
+              height={{xs: '35vh', md: '40vh'}}
+              borderRadius={'50%'} p={'0.75rem'} mb={{xs: '1rem', sm: 0}} mr={{xs: 0, md: '2rem'}}/>
+         <Box>
+            <h1>Hi, I'm <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span><span className={Style.hand}>🤚</span>
+            </h1>
+            <h2>I'm {info.position}.</h2>
+            <Box component={'ul'} p={'0.8rem'}>
+               {info.miniBio.map((bio, index) => (
+                  <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
+               ))}
+            </Box>
+            <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{xs: '2rem', md: '2.5rem'}}>
+               {info.socials.map((social, index) => (
+                  <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
+               ))}
+            </Box>
+         </Box>
+      </Box>
+   )
 }
-
-export default Home;
