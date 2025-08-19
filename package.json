@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "2.0.0",
-  "homepage": "https://rjf-trust.github.io",
+  "homepage": "https://fanq10.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -19,8 +19,8 @@
     "object-path": "^0.11.8",
     "postcss": "^8.4.35",
     "postcss-normalize": "^10.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-intersection-observer": "^9.8.1",
     "react-router-dom": "^6.22.1",
     "react-router-hash-link": "^2.4.3",
@@ -37,21 +37,6 @@
     "@babel/plugin-transform-private-property-in-object": "^7.23.4",
     "@jridgewell/sourcemap-codec": "^1.4.15",
     "@rollup/plugin-terser": "^0.4.4"
-  },
-  "overrides": {
-    "postcss": "^8.4.35",
-    "nth-check": "^2.1.1",
-    "css-select": "^5.1.0",
-    "svgo": "^3.2.0",
-    "@svgr/plugin-svgo": "^8.1.0",
-    "@svgr/webpack": "^8.1.0",
-    "resolve-url-loader": "^5.0.0"
-  },
-  "resolutions": {
-    "postcss": "^8.4.35",
-    "nth-check": "^2.1.1",
-    "css-select": "^5.1.0",
-    "svgo": "^3.2.0"
   },
   "scripts": {
     "predeploy": "npm run build",
